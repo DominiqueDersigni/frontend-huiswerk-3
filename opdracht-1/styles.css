@@ -1,0 +1,88 @@
+/*<!-- Navigatiebalk 1 -->*/
+.navbar-one-ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style-type: none;
+}
+
+/*<!-- Navigatiebalk 2 -->*/
+.navbar-two-ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    list-style-type: none;
+}
+
+/*<!-- Navigatiebalk 3 -->*/
+.navbar-three{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.navbar-three > div{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.navbar-three-ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    list-style-type: none;
+}
+
+/*<!-- Navigatiebalk 4 -->*/
+.navbar-four{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-four > div{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.navbar-four-ul{
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    list-style-type: none;
+}
+
+ul:has(.button-primary), ul:has(.button-secondary){
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    list-style-type: none;
+    flex-grow: 0;
+    gap: 10px
+}
+
+/*<!-- Navigatiebalk 5 -->*/
+.navbar-five{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.navbar-five > div{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    flex-grow: 1;
+}
+
+.navbar-five-ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-grow: 2;
+    list-style-type: none;
+}
+
